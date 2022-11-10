@@ -107,12 +107,12 @@ $ hermes create connection --a-chain quark-1 --b-chain uni-5
 $ exit
 ```
 
-You will see a lot of output, but you are only interested in the `connection_id` on Neutron:
+You will see a lot of text, but you are only interested in the `connection_id` on Neutron at the end of the output:
 
 ```
 SUCCESS Connection {
     delay_period: 0ns,
-    a_side: ConnectionSide {
+    a_side: ConnectionSide { <<< IMPORTANT: a_side
         chain: BaseChainHandle {
             chain_id: ChainId {
                 id: "neutron-devnet-1",
